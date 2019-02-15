@@ -14,6 +14,8 @@ To install into a local repositry you need first to create one.
 
     flatpak-builder --repo=.repo --ccache --force-clean .app-dir rolisteam.json
 
+And then to add it
+
     flatpak --user remote-add --no-gpg-verify local-test-remote $PWD/.repo
 
 
