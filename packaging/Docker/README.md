@@ -1,4 +1,4 @@
-## Dockerfile for building a roliserver conatiner which can be used to host multiple games. 
+## Dockerfile for building a roliserver container which can be used to host multiple games. 
 
 Copy the docker file to a build directory and run the following.
 
