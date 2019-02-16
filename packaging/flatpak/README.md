@@ -31,4 +31,12 @@ This will add it to your desktop search and so you should be able to search roli
 ### Note. 
 
 The appdata.xml file is used to populate the flathub page and so should be multilingual and have better screenshots
-The desktop file too need to be multilingual. Good examples can be found in the gnome-caclulator's `/usr/share/applications/org.gnome.Calculator.desktop`
+
+
+The desktop file too need to be multilingual. 
+
+Good examples can be found in the Gnome's Soundjuicer's files  
+
+`/usr/share/applications/org.gnome.SoundJuicer.desktop`
+
+`/usr/share/appdata/org.gnome.SoundJuicer.appdata.xml`
