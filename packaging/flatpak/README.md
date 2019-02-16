@@ -27,3 +27,8 @@ This will add it to your desktop search and so you should be able to search roli
 
     flatpak run org.rolisteam.rolisteam
 
+
+### Note. 
+
+The appdata.xml file is used to populate the flathub page and so should be multilingual and have better screenshots
+The desktop file too need to be multilingual. Good examples can be found in the gnome-caclulator's `/usr/share/applications/org.gnome.Calculator.desktop`
