@@ -37,7 +37,7 @@ RUN apt-get update                         && \
     rm -rf /var/lib/apt/lists/*
 
 RUN mkdir $BUILD_DIR && \
-    git -C $BUILD_DIR clone --recursive https://github.com/Rolisteam/rolisteam.git && \
+    git -C $BUILD_DIR clone --recursive https://invent.kde.org/kde/rolisteam.git && \
     cd $BUILD_DIR/rolisteam && \
     lrelease rolisteam.pro && \
     qmake -r server/server.pro && \
